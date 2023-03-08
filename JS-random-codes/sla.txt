@@ -1,0 +1,22 @@
+console.log('Welcome to Kaue gayzinho!');
+console.log('Register to continue: ');
+var usernameRegister = prompt('Username: ');
+console.log('-');
+var passwordRegister = prompt('Password: ');
+console.log('-');
+let confirmPasswordRegister = 0;
+while(passwordRegister != confirmPasswordRegister){
+    confirmPasswordRegister = prompt('Confirm password: ')
+    if(confirmPasswordRegister != passwordRegister){
+        console.log('the password aren´t equal!');
+        console.log('>>');
+    }
+}
+
+console.log('Register complete!');
+console.log('>')
+console.log('Login to continue!');
+var usernameLogin = prompt('Username: ');
+if(usernameLogin != usernameRegister){
+
+}
